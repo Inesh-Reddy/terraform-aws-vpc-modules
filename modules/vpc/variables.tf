@@ -3,7 +3,7 @@ variable "cidr_block" {
   type        = string
 }
 
-variable "enable_dhcp_options" {
+/* variable "enable_dhcp_options" {
   description = "Enable creation of DHCP Options"
   type        = bool
   default     = true
@@ -34,7 +34,7 @@ variable "domain_name_servers" {
   default = [
     "AmazonProvidedDNS",
   ]
-}
+} */
 
 variable "tags" {
   description = "A map of tags to assign to resources"

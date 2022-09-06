@@ -10,8 +10,8 @@ resource "random_id" "name" {
 module "vpc" {
   source = "../.."
 
-  enable_dns_support   = true
-  enable_dns_hostnames = true
+  /* enable_dns_support   = true
+  enable_dns_hostnames = true */
 
   availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
 

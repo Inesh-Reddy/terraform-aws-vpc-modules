@@ -14,7 +14,7 @@ resource "aws_route_table" "default" {
   count = var.subnet_count
 
   vpc_id           = var.vpc_id
-  propagating_vgws = var.propagating_vgws
+  //propagating_vgws = var.propagating_vgws
 
   tags = merge(var.tags, lookup(var.tags_for_resource, "aws_route_table", {}))
 }

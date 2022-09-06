@@ -20,11 +20,11 @@ variable "availability_zones" {
   type        = list(string)
 }
 
-variable "propagating_vgws" {
+/* variable "propagating_vgws" {
   description = "A list of virtual gateways for route propagation"
   type        = list(string)
   default     = []
-}
+} */
 
 variable "tags" {
   description = "A map of tags to assign to resources"

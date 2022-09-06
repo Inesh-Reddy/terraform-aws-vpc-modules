@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "random_id" "name" {
   byte_length = 4
-  prefix      = "terraform-aws-vpc-modules-"
+  prefix      = "inception-terraform-aws-vpc-modules-"
 }
 
 module "vpc" {

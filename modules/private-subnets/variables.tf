@@ -29,7 +29,7 @@ variable "availability_zones" {
 variable "tags" {
   description = "A map of tags to assign to resources"
   type        = map(string)
-  default     = {}
+  default     = {tag: "privatesubnet"}
 }
 
 variable "tags_for_resource" {
